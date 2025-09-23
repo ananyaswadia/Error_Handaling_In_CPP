@@ -15,7 +15,17 @@ The catch block follows a try block and is responsible for handling specific typ
 
 ## Algorithms
 ### Division by 0
+1. Start.
 
+2. Input two numbers n1 and n2.
+
+3. Begin try block: If n2 == 0, throw n2. Else, compute ans = n1 / n2.
+
+4. Display result. If exception is thrown, catch block executes:
+
+5. Print error message: "ERROR: Division by 0".
+
+6. End.
 ### Checking age for voting
 1. Start.
 
